@@ -16,7 +16,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 app.use(cors({
-    origin:'https://patient-portal-wine.vercel.app/', // Allow requests from the React frontend
+    origin:'https://patient-portal-wine.vercel.app', // Allow requests from the React frontend
     credentials: true
 }));
 app.use(express.json());
