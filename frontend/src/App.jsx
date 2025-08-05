@@ -4,7 +4,7 @@ import Header from "./components/Header"
 import FileUpload from "./components/FileUpload"
 import DocumentList from "./components/DocumentList"
 
-const API_URL = "http://localhost:3000/api/documents"
+const API_URL = "https://patient-portal-4g7m.onrender.com/api/documents"
 
 function App() {
   const [documents, setDocuments] = useState([])

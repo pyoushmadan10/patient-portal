@@ -3,7 +3,7 @@ import axios from "axios"
 import toast from "react-hot-toast"
 import { UploadCloud, FileIcon, X } from "lucide-react"
 
-const API_URL = "http://localhost:3000/api/documents/upload"
+const API_URL = "https://patient-portal-4g7m.onrender.com/api/documents/upload"
 
 const FileUpload = ({ onUploadSuccess }) => {
   const [selectedFile, setSelectedFile] = useState(null)
