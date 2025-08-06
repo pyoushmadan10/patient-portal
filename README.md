@@ -36,12 +36,14 @@ patient-portal/
 
 ### Main Packages Used
 
-- express
+- Express
+- Node.js
 - prisma
 - @prisma/client
 - multer
 - dotenv
-- pg (PostgreSQL driver)
+- react toast for notifications
+- lucid-react for icons
 
 ### API Routes
 
